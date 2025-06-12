@@ -1,0 +1,91 @@
+<aiml version="1.0.1" encoding="UTF-8">
+
+  <!-- Greetings -->
+  <category>
+    <pattern>HELLO</pattern>
+    <template>Hello there! How can I assist you today?</template>
+  </category>
+
+  <category>
+    <pattern>HI</pattern>
+    <template>Hi! I'm your chatbot. How can I help?</template>
+  </category>
+
+  <category>
+    <pattern>GOOD MORNING</pattern>
+    <template>Good morning! Wishing you a productive day.</template>
+  </category>
+
+  <category>
+    <pattern>GOOD NIGHT</pattern>
+    <template>Good night! Sleep well.</template>
+  </category>
+
+  <!-- Identity -->
+  <category>
+    <pattern>WHAT IS YOUR NAME</pattern>
+    <template>I am a Python AIML Chatbot created to assist you.</template>
+  </category>
+
+  <category>
+    <pattern>WHO MADE YOU</pattern>
+    <template>I was created using Python and AIML.</template>
+  </category>
+
+  <!-- Weather (Generic) -->
+  <category>
+    <pattern>WHAT IS THE WEATHER LIKE</pattern>
+    <template>I can't check live weather, but it’s always sunny in the world of AIML!</template>
+  </category>
+
+  <!-- Time (Generic) -->
+  <category>
+    <pattern>WHAT TIME IS IT</pattern>
+    <template>I'm not connected to a clock, but it’s always chatbot time!</template>
+  </category>
+
+  <!-- Basic Math -->
+  <category>
+    <pattern>WHAT IS 2+2</pattern>
+    <template>2 plus 2 is 4.</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS 10-3</pattern>
+    <template>10 minus 3 is 7.</template>
+  </category>
+
+  <!-- Small Talk -->
+  <category>
+    <pattern>HOW ARE YOU</pattern>
+    <template>I'm just a bunch of code, but I'm working fine. Thanks!</template>
+  </category>
+
+  <category>
+    <pattern>WHAT ARE YOU DOING</pattern>
+    <template>Chatting with you, of course!</template>
+  </category>
+
+  <category>
+    <pattern>DO YOU LIKE ME</pattern>
+    <template>Of course! I like talking to everyone.</template>
+  </category>
+
+  <!-- Goodbye -->
+  <category>
+    <pattern>BYE</pattern>
+    <template>Goodbye! Come back soon.</template>
+  </category>
+
+  <category>
+    <pattern>SEE YOU LATER</pattern>
+    <template>See you next time!</template>
+  </category>
+
+  <!-- Fallback -->
+  <category>
+    <pattern>*</pattern>
+    <template>I'm not sure how to respond to that yet. Can you rephrase?</template>
+  </category>
+
+</aiml>
